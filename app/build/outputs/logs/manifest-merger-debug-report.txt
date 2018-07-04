@@ -1,0 +1,108 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/shashank/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/c0e0ef53fa525a548106d9c3a4175776/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e186b8dcd48c80f8642727029ff8171/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shashank/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6eb7d166f40b6435e5d8569daa5efe05/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e955bbe997fcd97c697734544fb8d89d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/db52f32816bdb2bfd62cd09f7715b244/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1cb8e7e46bddea31dacd7c72d1da045c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/68077c9e246e080bc3b693e35f71fe4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7a61cf57aae16f9b076f18575dd4ef42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/067c789567bf9baea153f4327617f2de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c48b5fe13969110439d31e50b8c79888/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/073f3a80d00457f468840076a265d56e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f097e29326df268de0bd449cf0688487/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/33353acf6a3052830e859fb4d19ce0ae/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/shashank/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/c0e0ef53fa525a548106d9c3a4175776/AndroidManifest.xml:12:5-20
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/shashank/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/c0e0ef53fa525a548106d9c3a4175776/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shashank/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6eb7d166f40b6435e5d8569daa5efe05/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shashank/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6eb7d166f40b6435e5d8569daa5efe05/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.shashank.oru.MainActivity
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/shashank/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/c0e0ef53fa525a548106d9c3a4175776/AndroidManifest.xml:8:5-10:41
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/shashank/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/c0e0ef53fa525a548106d9c3a4175776/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e186b8dcd48c80f8642727029ff8171/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e186b8dcd48c80f8642727029ff8171/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shashank/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6eb7d166f40b6435e5d8569daa5efe05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/shashank/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6eb7d166f40b6435e5d8569daa5efe05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e955bbe997fcd97c697734544fb8d89d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e955bbe997fcd97c697734544fb8d89d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/db52f32816bdb2bfd62cd09f7715b244/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/db52f32816bdb2bfd62cd09f7715b244/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1cb8e7e46bddea31dacd7c72d1da045c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1cb8e7e46bddea31dacd7c72d1da045c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/68077c9e246e080bc3b693e35f71fe4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/68077c9e246e080bc3b693e35f71fe4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7a61cf57aae16f9b076f18575dd4ef42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7a61cf57aae16f9b076f18575dd4ef42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/067c789567bf9baea153f4327617f2de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/shashank/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/067c789567bf9baea153f4327617f2de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c48b5fe13969110439d31e50b8c79888/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c48b5fe13969110439d31e50b8c79888/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/073f3a80d00457f468840076a265d56e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/073f3a80d00457f468840076a265d56e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f097e29326df268de0bd449cf0688487/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f097e29326df268de0bd449cf0688487/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/33353acf6a3052830e859fb4d19ce0ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/shashank/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/33353acf6a3052830e859fb4d19ce0ae/AndroidManifest.xml:20:5-44
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		ADDED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
+		INJECTED from /media/shashank/Good stuff/Open source/Oru/app/src/main/AndroidManifest.xml
