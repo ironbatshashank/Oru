@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "473927683601",
+    "firebase_url": "https://oru-shashank.firebaseio.com",
+    "project_id": "oru-shashank",
+    "storage_bucket": "oru-shashank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473927683601:android:3e4b2822dca4e20f",
+        "android_client_info": {
+          "package_name": "com.example.shashank.oru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473927683601-sutrdc80djcsv4k8sltmeiah37d848hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shashank.oru",
+            "certificate_hash": "e836901685dc5022469e072e4afbeaa47e327758"
+          }
+        },
+        {
+          "client_id": "473927683601-lmqcl1atdjdnitk0uf10e6pbtgj4hol7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApxz2v1OpasofLugcSo4tzL8X-i1mwk4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473927683601-lmqcl1atdjdnitk0uf10e6pbtgj4hol7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
