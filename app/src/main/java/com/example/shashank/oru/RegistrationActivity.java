@@ -20,7 +20,7 @@ public class RegistrationActivity extends AppCompatActivity {
     private Button mRegister;
     private EditText mPassword, mEmail;
 
-    private FirebaseAuth;
+    private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthStateListener;
 
     @Override
@@ -28,7 +28,7 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
-        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth = FirebaseAuth.getInstance();
         firebaseAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -68,7 +68,6 @@ public class RegistrationActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseAuth mAuth;
         mAuth.addAuthStateListener(firebaseAuthStateListener);
     }
 
