@@ -37,14 +37,6 @@ public class MainActivity extends AppCompatActivity {
         checkUserSex();
 
         al = new ArrayList<>();
-        al.add("php");
-        al.add("c");
-        al.add("python");
-        al.add("java");
-        al.add("html");
-        al.add("c++");
-        al.add("css");
-        al.add("javascript");
 
         arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.helloText, al );
 
@@ -76,10 +68,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
                 // Ask for more data here
-                al.add("XML ".concat(String.valueOf(i)));
-                arrayAdapter.notifyDataSetChanged();
-                Log.d("LIST", "notified");
-                i++;
             }
 
             @Override
@@ -111,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 if(dataSnapshot.getKey().equals(user.getUid())){
                     userSex = "Male";
                     oppositeUserSex = "Female";
+                    getOppositeSexUsers();
                 }
             }
 
@@ -143,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 if(dataSnapshot.getKey().equals(user.getUid())){
                     userSex = "Female";
                     oppositeUserSex = "Male";
+                    getOppositeSexUsers();
                 }
             }
 
@@ -174,8 +164,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 if(dataSnapshot.exists()){
-                    userSex = "Female";
-                    oppositeUserSex = "Male";
+                    al.add(dataSnapshot.child("name").getValue().toString());
+                    arrayAdapter.notifyDataSetChanged();
                 }
             }
 
