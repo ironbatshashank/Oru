@@ -20,7 +20,7 @@ public class arrayAdapter extends ArrayAdapter<cards>{
     Context context;
 
     public arrayAdapter(Context context, int resourceId, List<cards> items){
-        super(context, resourceId, items)
+        super(context, resourceId, items);
     }
 
     public View getView(int position, View convertView, ViewGroup parent){
@@ -28,7 +28,7 @@ public class arrayAdapter extends ArrayAdapter<cards>{
 
         if(convertView == null) {
 
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item, parent false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item, parent, false);
         }
 
         TextView name = (TextView) convertView.findViewById(R.id.name);
