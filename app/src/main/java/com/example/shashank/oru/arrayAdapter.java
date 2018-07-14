@@ -24,6 +24,10 @@ public class arrayAdapter extends ArrayAdapter<cards>{
     public View getView(int position, View convertView, ViewGroup parent){
         cards card_item = getItem(position);
 
-        convertView = LayoutInflater(getViewTypeCount()).inflate(R.layout.item, parent false);
+        if(convertView == null) {
+
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item, parent false);
+        
+        }
     }
 }
