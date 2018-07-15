@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     private int i;
     private FirebaseAuth mAuth;
 
+    private String currentUId;
+
     private DatabaseReference usersDb;
 
     ListView listView;
