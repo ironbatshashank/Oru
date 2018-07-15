@@ -116,6 +116,8 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists()) {
                     Toast.makeText(MainActivity.this, "New Connection", Toast.LENGTH_LONG).show();
+                    usersDb.child(oppositeUserSex).child(dataSnapshot.getKey()).child("connection").child(currentUId).setValue(true);
+                    usersDb.child(userSex).child(currentUId).child("connection").child(dataSnapshot.getKey()).setValue(true);
                 }
             }
 
