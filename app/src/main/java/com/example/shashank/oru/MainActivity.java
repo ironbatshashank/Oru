@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
         oppositeSexDb.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                if(dataSnapshot.exists() && !dataSnapshot.child("connections").child("nope").child(currentUId) && !dataSnapshot.child("connections").child("Yep").child(currentUId)){
+                if (dataSnapshot.exists() && !dataSnapshot.child("connections").child("nope").hasChild(currentUId) && !dataSnapshot.child("connections").child("yeps").hasChild(currentUId) && dataSnapshot.child("sex").getValue().toString().equals(oppositeUserSex)){
                     cards item = new cards(dataSnapshot.getKey(), dataSnapshot.child("name").getValue().toString());
                     rowItems.add(item);
                     arrayAdapter.notifyDataSetChanged();
@@ -239,5 +239,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
         return;
+    }
+
+    public void goToSettings(View view) {
     }
 }
