@@ -107,7 +107,14 @@ public class SettingsActivity extends AppCompatActivity {
                     }
                     if(map.get("profileImageUrl")!=null){
                         mPhoneField.setText(phone);
-                        Glide.with(getApplication()).load(profileImageUrl).into(mProfileImage);
+                        switch (profileImageUrl) {
+                            case "default":
+                                Glide.with(getApplication()).load(R.mipmap.ic_launcher).into(mProfileImage);
+                                break;
+                            default:
+                                Glide.with(getApplication()).load(profileImageUrl).into(mProfileImage);
+                                break;
+                        }
                     }
                 }
             }
