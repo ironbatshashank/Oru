@@ -5,39 +5,44 @@
     android:layout_gravity="center"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:padding="40sp"
+    android:paddingLeft="40sp"
+    android:paddingRight="40sp"
+    android:paddingTop="20sp"
+    android:paddingBottom="20sp"
     android:outlineProvider="bounds"
     android:clipToPadding="false">
-    
+
     <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         app:cardCornerRadius="4dp"
-        android:elevation="4dp"
+        android:elevation="2dp"
         android:id="@+id/cardView">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:orientation="vertical">
 
-        <FrameLayout
-            android:layout_width="250dp"
-            android:layout_height="170dp"
-            android:layout_gravity="center">
-
-            <ImageButton
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/imahe"/>
+                android:layout_height="300dp"
+                android:id="@+id/image"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:id="@+id/name"
+                android:textSize="30sp"
+                android:paddingLeft="20sp"
+                android:textColor="@android:color/black"
+                android:gravity="center|left"
+                tools:text="hello"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/name"
-        android:textSize="40sp"
-        android:textColor="@android:color/black"
-        android:gravity="center"
-        tools:text="hello_world"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-        </FrameLayout>
-
+        </LinearLayout>
     </android.support.v7.widget.CardView>
+
 
 </LinearLayout>
