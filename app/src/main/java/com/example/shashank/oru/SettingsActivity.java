@@ -144,6 +144,7 @@ public class SettingsActivity extends AppCompatActivity {
             uploadTask.addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
+
                     finish();
                 }
             });
